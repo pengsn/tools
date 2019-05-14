@@ -1,0 +1,6 @@
+					工具类
+
+类描述
+	string>IdCardUtil   身份证校验类 15位&18位
+	sql>idcard_areacode.sql  身份证前6位code与地区关系表
+ 
