@@ -1,0 +1,16 @@
+1. 获取类的描述类 Class 方式
+   类名.class;
+   Class.forName("完整路径");
+   实例.getClass();
+   
+2. getMethods(); || getDeclaredMethods(); 获取申明的方法
+   区别: 前者只能获取public修饰符修饰的方法，但能获取父类被public修饰的方法
+         后者能获取所有修饰符修饰的方法，但只能获取当前类的方法，可以通过superClass循环迭代出所有方法
+
+3. getFields(); || getDeclaredFields(); 获取定义的字段
+   区别：  前者只能获取public修饰符修饰的字段，但能获取父类被public修饰的字段
+         后者能获取所有修饰符修饰的字段，但只能获取当前类的字段，可以通过superClass循环迭代出所有字段
+
+4. 方法调用 method.invoker(obj, params);
+
+   
